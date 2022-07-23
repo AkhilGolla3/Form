@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>GeeksForGeeks Survey Form</h1>
+    <form id="form"action="www.google.com" method="get">
+        <div class="form-control">
+        <label >NAME</label>
+        <input type="text" name="username"></div>
+        <div class="form-control"><label >EMAIL</label>
+        <input type="email" name="email"></div>
+        <div class="form-control"><label >AGE</label>
+       <input type="text"name="age"></div>
+        <div class="form-control">
+            <label >Which Option best describes you</label>
+        
+        <select name="op">
+            <option value="Student">Student</option>
+            <option value="Employee">Employee</option>
+            <option value="ceo">Ceo</option>
+        </select>
+        </div>
+        <div class="form-control"><label>Would you recommend geeks for geeks to a friend</label>
+        Yes<input type="radio" name="recomm">
+        No<input type="radio" name="recomm">
+        Maybe<input type="radio" name="recomm" >
+        </div>
+        <div class="form-control"><label>Languages And Frameworks Known(Check all that apply)</label>
+            C<input type="checkbox" name="op">
+            C++<input type="checkbox" name="op">
+            Java<input type="checkbox" name="op">
+            python<input type="checkbox" name="op">
+            JS <input type="checkbox" name="op">
+        </div>
+        <div class="form-control">
+            <label for="comment">Any comments or suggestions</label>
+            <textarea name="comment" id="comm" placeholder="Enter you comment here"></textarea>
+        </div>
+        <button type="submit" value="button">submit</button>
+    </form>
+    </div>
+</body>
+</html>
